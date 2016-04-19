@@ -10,14 +10,14 @@ module.exports = {
     // See http://azure.github.io/azure-mobile-apps-node/global.html#dataConfiguration
     // Normally this is not required for Azure hosted environments - we pick it up
     // from the ConnectionString for SQL Azure in the App Settings of the Azure Portal
-   /* data: {
+    data: {
       provider: 'mssql',
       server: 'nwmobi.database.windows.net',
       database: 'nmobi_db',
       user: 'jbooker@nwmobi',
       password: 'Jb122476'
-    }*/
-     data: {
+    },
+     data2: {
       provider: 'mssql',
       server: '(local)\SQLEXPRESS',
       database: 'nmobi_db',
