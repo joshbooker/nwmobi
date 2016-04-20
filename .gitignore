@@ -42,3 +42,6 @@ jspm_packages
 
 #ignore local debug settings
 azureMobile.js
+
+#T-SQL
+*.sql

@@ -1,11 +1,4 @@
-// ----------------------------------------------------------------------------
-// Copyright (c) 2015 Microsoft Corporation. All rights reserved.
-// ----------------------------------------------------------------------------
 
-/*
-** Sample Table Definition - this supports the Azure Mobile Apps
-** TodoItem product with authentication and offline sync
-*/
 var azureMobileApps = require('azure-mobile-apps');
 
 // Create a new table definition
@@ -23,8 +16,10 @@ table.columns = {
 
 table.name = 'todoitem';
 table.schema = 'dbo';
-table.databaseTableName = 'Tasks';
-table.access = 'disabled';
+*/
+table.databaseTableName = 'Products';
+
+/*table.access = 'disabled';
 
 table.maxTop = 1000;
 table.softDelete = false;

@@ -16,6 +16,13 @@ var app = express();
 // environment or an auxiliary file.  For more information, see
 // http://azure.github.io/azure-mobile-apps-node/global.html#configuration
 var mobileApp = azureMobileApps({
+   /* data: {
+      provider: 'mssql',
+      server: 'localhost',
+      database: 'nmobi_db',
+      user: 'azuremobile',
+      password: 'Jb122476'
+    },*/
     // Explicitly enable the Azure Mobile Apps home page
     homePage: true,
     // Explicitly enable swagger support. UI support is enabled by
